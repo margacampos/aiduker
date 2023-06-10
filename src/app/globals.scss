@@ -1,0 +1,30 @@
+:root {
+  --foreground-rgb: 154, 197, 244;
+  --background-start-rgb: 167, 236, 238;
+  --background-end-rgb: 255, 238, 187;
+  --brand-white: 255, 255, 255;
+  --dark-blue: #9AC5F4;
+  --dark-purple: #310A31;
+  --brand-black: #1B264F;
+  --brand-pink: #CF8BA9;
+  --sand-color: 255, 238, 187;
+  --brand-green: 154, 197, 244;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  color: var(--brand-white);
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      var(--brand-black)
+    )
+    rgb(var(--background-start-rgb));
+}
